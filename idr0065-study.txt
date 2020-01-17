@@ -38,7 +38,7 @@ Study License	CC-BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Uppsala University			
 Study Data Publisher	University of Dundee			
-Study Data DOI				
+Study Data DOI	https://doi.org/10.17867/10000131				
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
@@ -49,6 +49,7 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 				
 Experiment Number	1			
 Comment[IDR Experiment Name]	idr0065-camsund-crispri/experimentA
+Experiment Data DOI	https://doi.org/10.17867/10000131a	
 Experiment Sample Type	cell			
 Experiment Description	Time-lapse imaging of cells using phase contrast and SeqA-YFP foci using wide-field fluorescence on a CRISPRi library of knock-downs loaded into a microfluidic device. 			
 Experiment Size	5D Images: 90	Average Image Dimension (XYZCT): 2048x879x1x2x481	Total Tb: 0.21	# fill in any values you know
@@ -100,6 +101,7 @@ Processed Data Column Link To Assay File
 				
 Experiment Number	2			
 Comment[IDR Experiment Name]	idr0065-camsund-crispri/experimentB	
+Experiment Data DOI	https://doi.org/10.17867/10000131b
 Experiment Sample Type	cell		
 Experiment Description	After phenotyping, barcode RNAs were expressed by T7 RNApol induction and the cells were subsequently fixed and permeabilized. The strains were identified in situ by sequential FISH probing using widefield epi-fluorescence in four colors. Each round of probing identifies the positions of four unique strains.		
 Experiment Size	5D Images: 90	Average Image Dimension (XYZCT): 2048x879x1x5x1	Total Tb: 0.0015	# fill in any values you know
