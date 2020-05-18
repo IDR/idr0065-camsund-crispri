@@ -37,8 +37,8 @@ EXPERIMENTB_DIRECTORY = "/uod/idr/metadata/idr0065-camsund-crispri/experimentB"
 def read_phenotypic_time_indexes():
     time_indexes = {}
     with open(MAPPINGS_FILE, 'r') as f:
-        for l in f.readlines():
-            a = l.split(' ')
+        for line in f.readlines():
+            a = line.split(' ')
             time_indexes[a[0]] = int(a[1].rstrip()[-8:-5])
     return time_indexes
 
@@ -46,8 +46,8 @@ def read_phenotypic_time_indexes():
 def read_phenotypic_timestamps():
     timestamps = {}
     with open(TIMESTAMPS_FILE, 'r') as f:
-        for l in f.readlines():
-            a = l.split(' ')
+        for line in f.readlines():
+            a = line.split(' ')
             timestamps[a[0]] = float(a[1].rstrip())
     return timestamps
 
