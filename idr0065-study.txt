@@ -34,7 +34,7 @@ Study Person ORCID	0000-0001-5522-1810
 Study Person Roles	principal investigator, submitter	
 				
 # Study License and Data DOI				
-Study License	CC-BY 4.0			
+Study License	CC BY 4.0			
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Uppsala University			
 Study Data Publisher	University of Dundee			
